@@ -1,0 +1,86 @@
+:root {
+  --primary-text-color: #757575;
+  --tittle-text-color: #212121;
+  --links-text-color: #2196f3;
+}
+/* осн цвет текста #212121
+   вторичный цвет текста #757575;
+   голубой цвет,ссылки #2196F3 */
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: Roboto;
+}
+.list {
+  list-style: none;
+}
+/* Лого */
+/* Навигация */
+.site-nav a {
+  color: var(--tittle-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--links-text-color);
+}
+.contacts a {
+  color: var(--primary-text-color);
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--links-text-color);
+}
+/* Герой */
+.hero {
+  background-color: #2f303a;
+}
+.main-tittle {
+  color: #ffffff;
+}
+.button {
+  background-color: var(--links-text-color);
+  color: #ffffff;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border: 1px solid var(--links-text-color);
+}
+/* Секции */
+.tittles {
+  color: var(--tittle-text-color);
+}
+/* Команда */
+.team {
+  background-color: #f5f4fa;
+}
+.team-photo {
+  background-color: #ffffff;
+}
+/* Футер */
+.footer-background {
+  background-color: #2f303a;
+}
+.street a {
+  color: #ffffff;
+}
+.street a:hover,
+.street a:focus {
+  color: var(--links-text-color);
+}
+.contacts-footer a {
+  color: #ffffff99;
+}
+.contacts-footer a:hover,
+.contacts-footer a:focus {
+  color: var(--links-text-color);
+}
