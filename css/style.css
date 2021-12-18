@@ -6,6 +6,7 @@
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
 }
 .list {
   list-style: none;
@@ -79,6 +80,7 @@ body {
   color: #ffffff;
   background-color: var(--links-text-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -196,6 +198,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--tittle-text-color);
   background: #f5f4fa;
+  cursor: pointer;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus,
